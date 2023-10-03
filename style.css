@@ -1,26 +1,24 @@
 
-/* Add your existing CSS styles */
-/* ... (your existing styles) */
 * {
-    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-image: url('your-background-image.jpg'); /* Replace with  image path */
     background-size: cover;
     background-position: center; 
 }
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #ffffff; /* Light Gray Background */
+    background-color: #ffffff; 
     color: #494d5f;
-    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-image: url('your-background-image.jpg'); /* Replace with image path */
     background-size: cover;
     background-position: center;
 }
 
-/* ... (your existing styles) */
+
 
 /* Navigation */
 
  .navbar {
-    background-color: #494d5f !important; /* Blue */
+    background-color: #494d5f !important; 
  }
 
 .navbar a {
@@ -36,14 +34,19 @@ body {
 
 /* About Section */
 #about {
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     padding: 50px 0;
 }
-/* ... (your existing styles) */
+
+.bg-img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
 
 /* Skills Section */
 #skills {
-    background-color: #ffffff ;/* Light Gray */
+    background-color: #ffffff ;
     padding: 50px 0;
 }
 
@@ -73,7 +76,7 @@ body {
     color: #2b2e63;
 }
 
-/* ... (your existing styles) */
+
 
 
 /* Projects Section */
@@ -105,7 +108,7 @@ body {
 
 /* Contact Section */
 #contact {
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     padding: 50px 0;
 }
 
@@ -129,7 +132,7 @@ body {
 }
 
 .submit-btn {
-    background-color: #3498db; /* Blue */
+    background-color: #3498db;
     color: #ffffff;
     padding: 10px 20px;
     font-size: 1.2em;
@@ -139,33 +142,31 @@ body {
 }
 
 
-/* ... (your existing styles) */
-
 
 /* Footer */
 footer {
-    background-color: #2c3e50; /* Dark Blue */
+    background-color: #2c3e50; 
     color: #ffffff;
     padding: 20px 0;
 }
 
-/* ... (your existing styles) */
+
 
 /* Resume Section */
 #resume {
-    background-color: #ffffff; /* White */
+    background-color: #ffffff; 
     padding: 50px 0;
 }
 
 .btn-primary {
-    background-color:  #0049B7 !important; /* Yass Queen */
+    background-color:  #0049B7 !important; 
     color: #ffffff;
     border: none;
 }
 
 
 .btn-primary:hover {
-    background-color:  #ff1d58 !important; /* Yass Queen */
+    background-color:  #ff1d58 !important;
     color: #0e0d0d;
     border: none;
 }
