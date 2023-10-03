@@ -1,0 +1,174 @@
+
+/* Add your existing CSS styles */
+/* ... (your existing styles) */
+* {
+    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center; 
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Light Gray Background */
+    color: #494d5f;
+    background-image: url('your-background-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+/* ... (your existing styles) */
+
+/* Navigation */
+
+ .navbar {
+    background-color: #494d5f !important; /* Blue */
+ }
+
+.navbar a {
+    color: #ffffff !important;
+}
+
+
+
+.navbar a:hover {
+    color: #ff1d58 !important;
+    font-size: 25px;
+}
+
+/* About Section */
+#about {
+    background-color: #ffffff; /* White */
+    padding: 50px 0;
+}
+/* ... (your existing styles) */
+
+/* Skills Section */
+#skills {
+    background-color: #ffffff ;/* Light Gray */
+    padding: 50px 0;
+}
+
+.skill-icon-container {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.skill-icon {
+    width: 90px;
+    height: 90px;
+    margin: 20px 10px 10px 10px;
+    transition: transform 0.3s ease-in-out;
+    object-fit:contain;
+    
+}
+
+.skill-icon:hover {
+    transform: scale(1.2);
+}
+
+.skill-label {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 5px;
+    color: #2b2e63;
+}
+
+/* ... (your existing styles) */
+
+
+/* Projects Section */
+#projects {
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-img-top{
+    height: 250px;
+    width: 350px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff; /* White */
+    padding: 50px 0;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 1.2em;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.submit-btn {
+    background-color: #3498db; /* Blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+/* ... (your existing styles) */
+
+
+/* Footer */
+footer {
+    background-color: #2c3e50; /* Dark Blue */
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* ... (your existing styles) */
+
+/* Resume Section */
+#resume {
+    background-color: #ffffff; /* White */
+    padding: 50px 0;
+}
+
+.btn-primary {
+    background-color:  #0049B7 !important; /* Yass Queen */
+    color: #ffffff;
+    border: none;
+}
+
+
+.btn-primary:hover {
+    background-color:  #ff1d58 !important; /* Yass Queen */
+    color: #0e0d0d;
+    border: none;
+}
+
+
+
